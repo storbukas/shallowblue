@@ -1,0 +1,15 @@
+Backlog:
+
+- Need to implement all the rules for the peices. Currently we are missing some of the more advanced move such as passant, castling and promotion.
+
+- When a player selects a peice. We would like to light up the board with all the possible locations that peice can move to.
+
+- We would like to implement an advanced AI that can be aware of all the possible moves avalible to it without suffering from the horizon effect.
+
+- We would like to have an AI with 10 different difficulties.
+
+- We would like our AI to be able to sort it's avalible moves in order from strongest to weakest so it knows which moves to stop analysing.
+
+- Need to include a save function to allow a player to save his or her game so they may continue with it later on.
+
+- Need to implement clients requests for peice icons. 

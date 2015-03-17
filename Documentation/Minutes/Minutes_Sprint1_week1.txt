@@ -1,0 +1,20 @@
+Minute of first groupmeeting 12.02
+
+We have decided to have a meeting also on Mondays were we meet and discuss how we are doing
+so far in our tasks. Basicly a scrum-meeting, with further discussion and helping each other
+out after. We have decided to do that Mondays from 10-12, except in week 8 where we will meat
+Wednesday because some of the students have exam.
+
+Tasklist:
+What we have to do:
+- Make a Eclipse prosject. We have decided the name "Shallow Blue".
+- Make a classdiagram together to figure out how we are gonna work together 
+- Make together interfaces for all Java classes so we can start working on tasks.
+- Everyone needs to set up git on their computer unless you are using computers at school
+- Make a facebook group and invite everyone so we can communicate there.
+- Start of small with a tests and if time implementation of the following classes:
+Piece
+Move
+Ui
+Player
+Ai

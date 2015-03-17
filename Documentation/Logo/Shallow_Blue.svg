@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1600px"
+   height="1200px"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Shallow_Blue.svg">
+  <defs
+     id="defs2987">
+    <filter
+       id="filter3151"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood3153"
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite3155"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur3157"
+         in="composite"
+         stdDeviation="2"
+         result="blur" />
+      <feOffset
+         id="feOffset3159"
+         dx="4"
+         dy="4"
+         result="offset" />
+      <feComposite
+         id="feComposite3161"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.48"
+     inkscape:cx="800"
+     inkscape:cy="727.59572"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="702"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       style="fill:#000080;filter:url(#filter3151)"
+       d="m 284.38542,385.42708 c -109.88165,0 -198.968753,89.05585 -198.968753,198.9375 0,96.03613 68.056123,176.20288 158.562503,194.875 l 24.40625,-187.5625 129.90625,0 18.375,141.28125 c 40.89654,-36.43958 66.65625,-89.50859 66.65625,-148.59375 0,-109.88165 -89.05585,-198.9375 -198.9375,-198.9375 z m 67.6875,81.25 33.34375,0 0,33.3125 39.59375,0 -18.75,81.25 -143.75,0 -20.84375,-81.25 110.40625,0 0,-33.3125 z"
+       id="path2993"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/virtualgeek/Pictures/ShallowBlue.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2997"
+       style="font-size:150px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serpentine-Bold-Bold Wd;-inkscape-font-specification:Serpentine-Bold-Bold Wd"
+       transform="translate(10.416667,27.083333)"
+       inkscape:export-filename="/home/virtualgeek/Pictures/ShallowBlue.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion2999"><rect
+           id="rect3001"
+           width="1029.1667"
+           height="504.16669"
+           x="504.16666"
+           y="445.83334"
+           style="font-size:150px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Serpentine-Bold-Bold Wd;-inkscape-font-specification:Serpentine-Bold-Bold Wd" /></flowRegion><flowPara
+         id="flowPara3003">Shallow</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3005"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serpentine-Bold-Bold Wd;-inkscape-font-specification:Serpentine-Bold-Bold Wd"
+       transform="translate(410.41667,-122.91667)"
+       inkscape:export-filename="/home/virtualgeek/Pictures/ShallowBlue.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3007"><rect
+           id="rect3009"
+           width="893.75"
+           height="343.75003"
+           x="641.66669"
+           y="708.33331"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Serpentine-Bold-Bold Wd;-inkscape-font-specification:Serpentine-Bold-Bold Wd" /></flowRegion><flowPara
+         id="flowPara3011"
+         style="font-size:150px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Serpentine-Bold-Bold Wd;-inkscape-font-specification:Serpentine-Bold-Bold Wd">Blue</flowPara></flowRoot>    <rect
+       style="fill:#000080"
+       id="rect3083-6"
+       width="33.333332"
+       height="33.333332"
+       x="283.33331"
+       y="500"
+       inkscape:export-filename="/home/virtualgeek/Pictures/ShallowBlue.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000080"
+       id="rect3083-3"
+       width="33.333332"
+       height="33.333332"
+       x="352.08334"
+       y="500"
+       inkscape:export-filename="/home/virtualgeek/Pictures/ShallowBlue.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000080"
+       d="m 337.51042,589.58333 19.375,177.53125 c 5.42154,-2.17143 10.73396,-4.56259 15.90625,-7.1875 l -18.625,-170.34375 -16.65625,0 z"
+       id="rect3122"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/virtualgeek/Pictures/ShallowBlue.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

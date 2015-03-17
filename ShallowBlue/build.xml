@@ -1,0 +1,88 @@
+<project name="ShallowBlue" basedir="." default="main">
+	<property name="src.dir" value="src" />
+	<property name="res.dir" value="res" />
+	<property name="build.dir" value="build" />
+	<property name="classes.dir" value="${build.dir}/classes" />
+	<property name="dist.dir" value="${build.dir}/dist" />
+	<property name="lib.dir" value="lib"/>
+	<property name="test.dir" value="${src.dir}/no/uib/inf112/group4/tests/"  />
+	<property name="test.reports.dir" value="reports/"  />
+	
+	<property name="main-class" value="no.uib.inf112.group4.ShallowBlue" />
+
+    <path id="classpath">
+		<!-- The wildcard "**" = Zero or more directories -->
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+    </path>
+	
+	<path id="respath">
+        <fileset dir="${res.dir}" includes="**/*"/>
+    </path>
+
+	<!-- Create necessary folders -->
+	<target name="init" depends="clean">
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${classes.dir}" />
+		<mkdir dir="${dist.dir}" />
+		<mkdir dir="${test.reports.dir}" />
+	</target>
+
+	<!-- Delete generated files -->
+    <target name="clean">
+        <delete dir="${build.dir}" />
+		<delete dir="${classes.dir}" />
+		<delete dir="${dist.dir}" />
+		<!--<delete dir="${test.reports.dir}" /> -->
+    </target>
+
+	<!-- Compile program -->
+    <target name="compile" depends="init">
+        <javac includeantruntime="false" srcdir="${src.dir}" classpathref="classpath" destdir="${classes.dir}" />
+    </target>
+
+	<!-- Create jar -->
+    <target name="dist" depends="compile">
+        <jar destfile="${dist.dir}/${ant.project.name}.jar" basedir="${classes.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main-class}" />
+            </manifest>
+            <fileset dir=".">
+				<include name="${res.dir}/**/*.*" />
+			</fileset>
+        </jar>
+    </target>
+
+	<!-- Run jar -->
+    <target name="run" depends="dist">
+        <java classname="${main-class}" fork="true">
+			<classpath>
+                <path refid="classpath"/>
+                <path location="${dist.dir}/${ant.project.name}.jar"/>
+            </classpath>
+		</java>
+    </target>
+	
+	<!-- Run tests -->
+	<target name="test" depends="dist">
+		<junit printsummary="yes" haltonfailure="no" showoutput="true" outputtoformatters="yes" >
+		  <classpath>
+			<pathelement location="${src.dir}"/>
+			<pathelement path="${java.class.path}"/>
+			<path location="${dist.dir}/${ant.project.name}.jar"/>
+			<path refid="classpath" />
+		  </classpath>
+		
+		  <formatter type="plain"/>
+		
+		  <batchtest fork="yes" todir="${test.reports.dir}">
+			<fileset dir="${src.dir}">
+			  <include name="**/*Test*.java"/>
+			  <exclude name="**/AllTests.java"/>
+			</fileset>
+		  </batchtest>
+		</junit>
+	</target>
+
+	<!-- Default action: Clean and run -->
+	<target name="main" depends="clean, run" />
+</project>
